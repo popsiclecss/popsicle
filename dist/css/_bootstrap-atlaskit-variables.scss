@@ -44,24 +44,24 @@ $teals: map-merge((
 
 $blues: () !default;
 $blues: map-merge((
-  "t500": #0747A6,
-  "t400": #0052CC,
-  "t300": #0065FF,
-  "t200": #2684FF,
-  "t100": #4C9AFF,
-  "t75":  #B3D4FF,
-  "t50":  #DEEBFF
+  "b500": #0747A6,
+  "b400": #0052CC,
+  "b300": #0065FF,
+  "b200": #2684FF,
+  "b100": #4C9AFF,
+  "b75":  #B3D4FF,
+  "b50":  #DEEBFF
 ), $blues);
 
 $purples: () !default;
 $purples: map-merge((
-  "t500": #403294,
-  "t400": #5243AA,
-  "t300": #6554C0,
-  "t200": #8777D9,
-  "t100": #998DD9,
-  "t75":  #C0B6F2,
-  "t50":  #EAE6FF
+  "p500": #403294,
+  "p400": #5243AA,
+  "p300": #6554C0,
+  "p200": #8777D9,
+  "p100": #998DD9,
+  "p75":  #C0B6F2,
+  "p50":  #EAE6FF
 ), $purples);
 
 $neutrals: () !default;
