@@ -3,6 +3,10 @@
     public function init() {
       parent::init();
 
+      $this->addFiles([
+        "css/home.min.css"
+      ]);
+
       $this->tags["title"]  .= "Home";
       $this->tags["content"] = $this->makePage();
     }
