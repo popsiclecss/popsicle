@@ -1,10 +1,11 @@
 {
   "defaultPage" : ["Page404", []],
   "pages": [
-    ["/Page404", "Page404", []],
-    ["/",        "Home",    []],
-    ["/Home",    "Home",    []],
-    ["/colors",   "Colors",  []],
-    ["/buttons",   "Buttons",  []]
+    ["/Page404",      "Page404",     []],
+    ["/",             "Home",        []],
+    ["/Home",         "Home",        []],
+    ["/overview",     "Overview",    []],
+    ["/colors",       "Colors",      []],
+    ["/buttons",      "Buttons",     []]
   ]
 }

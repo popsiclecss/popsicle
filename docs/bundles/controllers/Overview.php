@@ -1,5 +1,5 @@
 <?php
-  class Colors extends Template {
+  class Overview extends Template {
     public function init() {
       parent::init();
 
@@ -8,11 +8,11 @@
       ]);
 
       $this->template = "bundles/views/documentation-template.twig";
-      $this->tags["title"]  .= "Colors";
+      $this->tags["title"]  .= "Overview";
       $this->tags["content"] = $this->makePage();
     }
     public function makePage() {
-      return jBlockFile("bundles/views/colors.twig");
+      return jBlockFile("bundles/views/overview.twig");
     }
   }
 ?>
