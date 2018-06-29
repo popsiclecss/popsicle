@@ -1,0 +1,26 @@
+engines:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+      - php
+  fixme:
+    enabled: true
+  phpmd:
+    enabled: true
+    checks:
+      Controversial/CamelCaseParameterName:
+        enabled: false
+      Controversial/CamelCaseVariableName:
+        enabled: false
+ratings:
+  paths:
+    - "**.js"
+    - "**.php"
+exclude_paths:
+  - git/**/*
+  - examples/**/*
+  - dist/jate/modules/ExternalModules/**/*
+  - dist/jate/modules/Parsedown/Parsedown/**/*
+  - tests/**/*

@@ -1,0 +1,15 @@
+# COMPOSER
+/dist/jate/modules/ExternalModules/composer.json
+/dist/jate/modules/ExternalModules/composer.lock
+/dist/jate/modules/ExternalModules/composer.phar
+
+# PUG
+/dist/jate/modules/ExternalModules/vendor/pug-php/pug/*
+!/dist/jate/modules/ExternalModules/vendor/pug-php/pug/README.md
+!/dist/jate/modules/ExternalModules/vendor/pug-php/pug/src
+
+# TWIG
+/dist/jate/modules/ExternalModules/vendor/twig/twig/*
+!/dist/jate/modules/ExternalModules/vendor/twig/twig/README.rst
+!/dist/jate/modules/ExternalModules/vendor/twig/twig/ext
+!/dist/jate/modules/ExternalModules/vendor/twig/twig/lib

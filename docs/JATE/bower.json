@@ -1,0 +1,19 @@
+{
+  "name": "JATE",
+  "homepage": "https://github.com/XaBerr/JATE",
+  "authors": [
+    "federico berra <fede.berra@hotmail.it>"
+  ],
+  "description": "Just Another Template Engine",
+  "main": "jate.php",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "JATE",
+    "PHP",
+    "TEMPLATE",
+    "ENGINE"
+  ],
+  "license": "free"
+}

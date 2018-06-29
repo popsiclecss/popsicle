@@ -1,0 +1,6 @@
+filter:
+  excluded_paths:
+    - "examples/"
+    - "dist/jate/modules/ExternalModules/"
+    - "dist/jate/modules/Parsedown/Parsedown/"
+    - "tests/"
