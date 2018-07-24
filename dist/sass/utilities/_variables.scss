@@ -1,5 +1,5 @@
-$colors: () !default;
-$colors: map-merge((
+$reds: () !default;
+$reds: map-merge((
   "r500": #BF2600,
   "r400": #DE350B,
   "r300": #DE350B,
@@ -7,7 +7,7 @@ $colors: map-merge((
   "r100": #FF8F73,
   "r75":  #FFBDAD,
   "r50":  #FFEBE6
-), $colors);
+), $reds);
 
 $yellows: () !default;
 $yellows: map-merge((

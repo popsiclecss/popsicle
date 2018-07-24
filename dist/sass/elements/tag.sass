@@ -1,0 +1,76 @@
+$tag-background-color: $background !default
+$tag-color: $text !default
+$tag-radius: $radius !default
+$tag-delete-margin: 1px !default
+
+.tags
+  align-items: center
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-start
+  .tag
+    margin-bottom: 0.5rem
+    &:not(:last-child)
+      margin-right: 0.5rem
+  &:last-child
+    margin-bottom: -0.5rem
+  &:not(:last-child)
+    margin-bottom: 1rem
+  &.has-addons
+    .tag
+      margin-right: 0
+      &:not(:first-child)
+        border-bottom-left-radius: 0
+        border-top-left-radius: 0
+      &:not(:last-child)
+        border-bottom-right-radius: 0
+        border-top-right-radius: 0
+  &.is-centered
+    justify-content: center
+    .tag
+      margin-right: 0.25rem
+      margin-left: 0.25rem
+  &.is-right
+    justify-content: flex-end
+    .tag
+      &:not(:first-child)
+        margin-left: 0.5rem
+      &:not(:last-child)
+        margin-right: 0
+
+.tag:not(body)
+  align-items: center
+  background-color: $tag-background-color
+  border-radius: $tag-radius
+  color: $tag-color
+  display: inline-flex
+  font-size: $size-small
+  height: 2em
+  justify-content: center
+  line-height: 1.5
+  padding-left: 0.75em
+  padding-right: 0.75em
+  white-space: nowrap
+  font-weight: 500
+
+.condensed-tag
+  font-size: 12px
+  font-weight: 600
+  height: 8px
+  border-radius: 4px
+  color: transparent
+  margin: 0 4px 4px 0
+  max-width: 40px
+  min-width: 40px
+  padding: 0
+  text-shadow: none
+  overflow: hidden
+  width: auto
+  &.condensed-blue
+    background-color: #0052CC
+  &.condensed-red
+    background-color: #FF5630
+  &.condensed-green-tea
+    background-color: #57D9A3
+  &.condensed-sentinel
+    background-color: #B3BAC5

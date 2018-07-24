@@ -377,3 +377,37 @@
   text-overflow: ellipsis
   white-space: nowrap
   width: 100%
+
+.desktop-navbar
+  display: flex
+  width: 100%
+  transition: width 200ms
+
+.background-opacized
+  bottom: 0px
+  left: 0px
+  position: fixed
+  right: 0px
+  top: 0px
+  z-index: 295
+  background: rgba(9,30,66,0.54)
+  animation: animate-opacity 0.2s ease-out
+
+.mobile-navbar
+  width: 100%
+  position: fixed
+  top: 0
+  background-color: rgb(244, 245, 247)
+
+@media screen and (max-width: 992px)
+  .desktop-navbar
+    display: none
+    width: 0
+    transition: width 200ms
+
+  .page-page-content
+    margin-left: 0
+    margin-top: 64px
+
+  .mobile-navbar .navbar
+    box-shadow: 0 0px 7px rgba(0,0,0,.25)
