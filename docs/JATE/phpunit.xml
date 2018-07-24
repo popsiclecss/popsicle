@@ -1,7 +1,0 @@
-<phpunit bootstrap="dist/jate.php">
-  <testsuites>
-    <testsuite name="jateMain">
-      <directory>tests</directory>
-    </testsuite>
-  </testsuites>
-</phpunit>
