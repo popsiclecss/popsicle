@@ -7,7 +7,7 @@
 #### Getting Started
   Download from Npm
   ```
-  npm install popsicle
+  npm install popsicle-ui
   ```
 
   or clone the respository from Github
