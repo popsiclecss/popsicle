@@ -1,4 +1,4 @@
-# Bootstrap Atlaskit
+# Popsicle
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
@@ -7,11 +7,13 @@
 #### Getting Started
   Download from Npm
   ```
-  npm install bootstrap-atlaskit
+  npm install popsicle
   ```
 
   or clone the respository from Github
-
+  ```
+  https://github.com/lucaros97/Popsicle.git
+  ```
 
 
 #### !!!The documentation is in building state so stay tuned to keep updated!!!!
