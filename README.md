@@ -1,8 +1,8 @@
-# Popsicle
+# Popsicle 🍧
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-### Bootstrap Atlaskit is an awesome UI Kit built according to the Atlassian Design Guidelines.
+### Popsicle is an awesome UI Kit built according to the Atlassian Design Guidelines.
 
 #### Getting Started
   Download from Npm
