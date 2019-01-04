@@ -4,7 +4,10 @@ $(document).ready(function(e) {
       "width":'100%',
       'display':"flex",
       "z-index":"999"
-    })
+    });
+    $(".navigation-navbar").css({
+      "z-index":"999"
+    });
     if ($(".desktop-navbar").is(":visible")) {
       $(".background-opacized").removeClass("d-none");
     }
@@ -14,6 +17,9 @@ $(document).ready(function(e) {
     if ($(".desktop-navbar").is(":visible")) {
       $(".desktop-navbar").css("display","none");
       $(this).addClass("d-none");
+      $(".navigation-navbar").css({
+        "z-index":"1"
+      });
     }
   });
 });

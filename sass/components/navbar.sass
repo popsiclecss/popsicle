@@ -35,7 +35,7 @@
   display: flex
   flex-direction: column
 
-.primary-actions-primary-item .global-navigation-brand
+.global-navigation-brand
   color: rgb(222, 235, 255)
   background-color: rgb(7, 71, 166)
   fill: rgb(7, 71, 166)
@@ -117,7 +117,9 @@
   align-self: center
   -webkit-box-flex: 0
   flex-grow: 0
-  width: 32px
+  & .global-navigation-secondary-actions
+    box-sizing: border-box
+    padding: 8px 0px 0px
 
 // Navigation Wrapper
 .navbar-wrapper-navigation
