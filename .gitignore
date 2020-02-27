@@ -1,9 +1,6 @@
-# Files
-.DS_Store
+/node_modules
+/lib
+/example
 index.html
-# Folders
-.idea/
-.sass-cache
-_gh_pages
-_site
-node_modules
+package-lock.json
+yarn-error.log
