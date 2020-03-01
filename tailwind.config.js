@@ -1,5 +1,5 @@
 // tailwind.config.js
-const { colors } = require('./defaultTheme')
+const colors  = require('./defaultTheme')
 
 module.exports = {
     theme: {
@@ -58,6 +58,28 @@ module.exports = {
               '300': '#6554C0',
               '400': '#5243AA',
               '500': '#403294',
+          },
+          neutral: {
+              '900': '#091E42',
+              '800': '#172B4D',
+              '700': '#253858',
+              '600': '#344563',
+              '500': '#42526E',
+              '400': '#505F79',
+              '300': '#5E6C84',
+              '200': '#6B778C',
+              '100': '#7A869A',
+              '90': '#8993A4',
+              '80': '#97A0AF',
+              '70': '#A5ADBA',
+              '60': '#B3BAC5',
+              '50': '#C1C7D0',
+              '40': '#DFE1E6',
+              '30': '#EBECF0',
+              '20': '#F4F5F7',
+              '10': '#FAFBFC',
+              '0': '#FFFFFF',
+
           }
         }
       }

@@ -3,3 +3,11 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.sidebar {
+  @apply sticky inset-0 h-screen w-16 z-40 bg-gray-300 text-neutral-900
+}
+
+.sidebar-wrapper {
+  @apply h-full overflow-y-auto scrolling-touch py-6
+}
