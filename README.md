@@ -1,5 +1,6 @@
 <p align="center">
     <a href="https://tailwindcss.com/" target="_blank"><img width="200" src="https://lucaros97.github.io/popsicle-colors/assets/img/popsicle.svg"></a><br>
+    
     Popsicle is an awesome UI Kit built according to the Atlassian Design Guidelines.
 </p>
 

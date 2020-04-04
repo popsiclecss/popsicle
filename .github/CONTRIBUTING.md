@@ -6,11 +6,11 @@ Thanks for your interest in contributing to Tailwind CSS! Please take a moment t
 
 **Please ask first before starting work on any significant new features.**
 
-It's never a fun experience to have your pull request declined after investing a lot of time and effort into a new feature. To avoid this from happening, we request that contributors create [an issue](https://github.com/tailwindcss/tailwindcss/issues) to first discuss any significant new features. This includes things like adding new utilities, creating new at-rules, etc.
+It's never a fun experience to have your pull request declined after investing a lot of time and effort into a new feature. To avoid this from happening, we request that contributors create [an issue](https://github.com/popsiclecss/popsicle/issues) to first discuss any significant new features. This includes things like adding new utilities, creating new at-rules, etc.
 
 ## Coding standards
 
-Our code formatting rules are defined in [.eslintrc](https://github.com/tailwindcss/tailwindcss/blob/master/.eslintrc.json). You can check your code against these standards by running:
+Our code formatting rules are defined in [.eslintrc](https://github.com/popsiclecss/popsicle/blob/master/.eslintrc.json). You can check your code against these standards by running:
 
 ```sh
 npm run style
@@ -48,7 +48,7 @@ This will create new CSS files in the `/dist` folder which you can reference in 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/dist/tailwind.css">
+    <link rel="stylesheet" href="/dist/popsicle.css">
     <title>Hello, world!</title>
   </head>
   <body>

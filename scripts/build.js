@@ -36,13 +36,13 @@ function buildDistFile(filename) {
   })
 }
 
-console.info('Building Tailwind!')
+console.info('Building Popsicle!')
 
 Promise.all([
   buildDistFile('base'),
   buildDistFile('components'),
   buildDistFile('utilities'),
-  buildDistFile('tailwind'),
+  buildDistFile('popsicle'),
 ]).then(() => {
-  console.log('Finished Building Tailwind!')
+  console.log('Finished Building Popsicle!')
 })
